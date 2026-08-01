@@ -1,0 +1,20 @@
+<form>
+
+Email:
+
+<input type="email" id="email" required>
+
+Phone:
+
+<input type="text"
+id="phone"
+maxlength="10"
+required>
+
+<button onclick="validateForm()">
+Submit
+</button>
+
+</form>
+
+<p id="message"></p>
